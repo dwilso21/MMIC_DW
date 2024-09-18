@@ -7,7 +7,7 @@ model:
   arch: pretrain_flant5xl
   load_finetuned: False
 
-  pretrained: "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xl.pth"
+  pretrained: "/content/drive/MyDrive/GMM_DW/Flan T5 XL/blip2_pretrained_flant5xl.pth"
   finetuned: ""
 
   # vit encoder
@@ -21,7 +21,7 @@ model:
   num_query_token: 32
 
   # T5
-  t5_model: "google/flan-t5-xl"
+  t5_model: "/content/drive/MyDrive/GMM_DW/Flan T5 XL"
 
   # generation configs
   prompt: ""
